@@ -1,4 +1,33 @@
 
-.title {
+body{
     font-family: byekan;
+}
+
+#footer{
+    color: white;
+}
+
+#social{
+    list-style-type: none;
+    
+}
+#social li{
+    display: inline;
+}
+
+.social-link{
+    color: white;
+}
+
+.social-link:hover{
+    color: rgb(29, 207, 44);
+}
+
+#to_top{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
 }
